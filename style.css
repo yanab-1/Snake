@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 90vw;
+    margin: auto;
+    margin-top: 37px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#container article{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 14px;
+    padding-top : 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+#container div{
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+}
+#container i{
+    margin: 0;
+    padding: 0;
+    font-size: 0.6rem;
+}
+#container{
+    width: 650px;
+    height: 650px;
+    margin: auto;
+    /* margin-top: 40px; */
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10 , 1fr);
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+i{
+    font-size: 9px;
+    color: white;
+    margin-top: 0;
+    margin-bottom:0;
+}
+
+.button-up{
+    height: 65px;
+    width: 65px;
+    border: 1px solid black;
+  
+
+    margin-left: 100px;
+   
+}
+.button-down{
+    height: 50px;
+    width: 90px;
+    border: 1px solid black;
+    background-size: cover;
+    margin-right: 30px;
+    font-size: 1rem;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+.player{
+    width: 250px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+h3{
+    font-size: 1rem;
+    width: 100px;
+    height: 35px;
+    border: 1px solid black;
+    text-align: center;
+    /* padding-top: 10px; */
+
+}
